@@ -1,0 +1,35 @@
+:root{
+    --primaryColor: #000000;
+    --lightColor: #c3d80b;
+}    
+body{
+    background-color: rgb(0, 0, 0);
+
+}
+.backgroundprimery{
+    background-color: var(--primaryColor);
+}
+.txtprimery{
+    color: var(--lightColor);
+}
+input{
+    width: 70px;
+    outline: none;
+    border: none;
+}
+.text{
+    text-shadow: 0px 10px 5px black;
+}
+#progress{
+    width: 90%;
+    height: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid blue;
+}
+#progress-bar{
+    height: 20px;
+    background-color: blue;
+    border-radius: 10px;
+}
